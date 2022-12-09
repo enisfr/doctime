@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="#">
+
+	<link rel="stylesheet" href="styles.css">
+	<script type="module" src="app.js"></script>
+	<script type="module" src="read-excel.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>Baloncuk</title>
+	<link rel="icon" type="image/x-icon" href="./baloncuk.webp">
+</head>
+<body>
+<div class="flex">
+	<p>baloncuk md scheduler</p>
+</div>
+
+<div class="form">
+	<div class="input-group input-group-md">
+		<input type="file" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="input">
+	</div>
+
+	<div class="input-group input-group-md">
+		<div class="input-group-prepend">
+			<span class="input-group-text" id="inputGroup-sizing-sm">Doctor Name</span>
+		</div>
+		<input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-md" id="dr-name" value="DOĞUKAN ERBEK">
+
+	</div>
+	<button class="btn btn-outline-primary button" type="button" id="btn" disabled>PRINT MA SCHEDULE!</button>
+
+</div>
+
+<div class="wrapper" id="wrapper"></div>
+
+<div class="text-center text-lg-start bg-light text-muted footer" id="footer">
+	<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+		© 2022 Powered By:
+		<a class="text-reset fw-bold" target="_blank" href="http://enisfr.com/">enisfr</a>
+	</div>
+</div>
+
+</body>
+
+
+</html>
