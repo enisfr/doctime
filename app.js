@@ -30,7 +30,7 @@ button.addEventListener("click", () => {
 		if(schedule.length > 0) {
 			writeTableWith(schedule);
 			document.getElementById('btn').disabled = true;
-		} else {
+		} else {git commit -m "first commit"
 			alert("Allowed Extensions:" + ALLOWED_EXTENSIONS);
 		}
 	});

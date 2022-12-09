@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cea400df-82d3-4fa3-8ca3-9d43c29ce1de" name="Changes" comment="" />
+    <list default="true" id="cea400df-82d3-4fa3-8ca3-9d43c29ce1de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baloncuk.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read-excel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="gke_cloudwise-gluu-identity-poc_europe-west4_keycloak-poc-cluster" />
@@ -14,6 +24,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IfTIZw184KMLf5okdppJp8s7Y4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -169,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670571561057</updated>
       <workItem from="1670571562234" duration="26410000" />
-      <workItem from="1670598982713" duration="1260000" />
+      <workItem from="1670598982713" duration="1561000" />
     </task>
     <servers />
   </component>
